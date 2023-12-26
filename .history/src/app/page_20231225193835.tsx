@@ -71,40 +71,23 @@ export default function Home() {
           <button className="w-[354px] h-[90px] left-[466px] top-[616px] absolute text-center text-white text-8xl font-normal font-['Lancelot']">schedule</button>
         </div>
         <section>
-          <div className="w-[1280px] h-[900px] bg-white relative flex justify-center items-center">
-            <form action="" className="w-full max-w-lg">
-              <div className='flex flex-col md:flex-row py-2 gap-2 md:items-center'>
-                <label htmlFor="name" className="md:w-1/3">Name</label>
-                <input type="text" id="name" className="flex-1 p-2 border border-gray-300 rounded" />
+          <div className="w-[1280px] h-[900px] relative">
+            <form action="">
+              <label htmlFor=""></label>
+              <input type="text" placeholder="name" />" />
+              <div className="left-[214px] top-[171px] absolute text-black text-[50px] font-normal font-['Inter']">name: <br />email: <br />message: <br /><br />
               </div>
+              <div className="w-[200px] h-[75px] left-[540px] top-[664px] absolute bg-orange-700 bg-opacity-80 rounded-[5px] shadow" />
+              <button className="left-[582px] top-[671px] absolute text-center text-white text-[50px] font-normal font-['Inter']">send</button>
 
-              <div className='flex flex-col md:flex-row py-2 gap-2 md:items-center'>
-                <label htmlFor="email" className="md:w-1/3">Email</label>
-                <input type="email" id="email" className="flex-1 p-2 border border-gray-300 rounded" />
-              </div>
-
-              <div className='flex flex-col md:flex-row py-2 gap-2 md:items-center'>
-                <label htmlFor="message" className="md:w-1/3">Message</label>
-                <textarea id="message" className="flex-1 p-2 border border-gray-300 rounded" rows={4}></textarea>
-              </div>
-
-              <button type="submit" className="px-6 py-3 bg-orange-500 text-white text-lg rounded hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50">
-                Send
-              </button>
             </form>
+            \
           </div>
         </section>
-
       </main>
       <footer className="bg-[#A8BFA5]">
-        <div className='flex justify-center w-full'>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-        </div>
-        <div className="flex justify-center w-full ">
+
+        <div className="flex flex-row">
           <a href="">Home</a>
           <a href="">News</a>
           <a href="">About Us</a>

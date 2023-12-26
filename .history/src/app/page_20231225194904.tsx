@@ -97,14 +97,8 @@ export default function Home() {
 
       </main>
       <footer className="bg-[#A8BFA5]">
-        <div className='flex justify-center w-full'>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-        </div>
-        <div className="flex justify-center w-full ">
+
+        <div className="flex flex-row">
           <a href="">Home</a>
           <a href="">News</a>
           <a href="">About Us</a>

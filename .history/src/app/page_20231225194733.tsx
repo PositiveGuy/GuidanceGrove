@@ -85,7 +85,7 @@ export default function Home() {
 
               <div className='flex flex-col md:flex-row py-2 gap-2 md:items-center'>
                 <label htmlFor="message" className="md:w-1/3">Message</label>
-                <textarea id="message" className="flex-1 p-2 border border-gray-300 rounded" rows={4}></textarea>
+                <textarea id="message" className="flex-1 p-2 border border-gray-300 rounded" rows="4"></textarea>
               </div>
 
               <button type="submit" className="px-6 py-3 bg-orange-500 text-white text-lg rounded hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50">
@@ -97,14 +97,8 @@ export default function Home() {
 
       </main>
       <footer className="bg-[#A8BFA5]">
-        <div className='flex justify-center w-full'>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-        </div>
-        <div className="flex justify-center w-full ">
+
+        <div className="flex flex-row">
           <a href="">Home</a>
           <a href="">News</a>
           <a href="">About Us</a>

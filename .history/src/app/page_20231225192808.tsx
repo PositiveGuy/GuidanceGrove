@@ -26,27 +26,10 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="w-[1280px] h-[900px] relative">
-            <div className="w-[1280px] h-[900px] left-0 top-0 absolute bg-stone-500 bg-opacity-30" />
-            <div className="left-[499px] top-0 absolute text-center text-black text-8xl font-normal font-['Kristi'] underline">What we do</div>
-            <div className="w-[400px] h-[720px] left-[859px] top-[121px] absolute">
-              <div className="w-[400px] h-[720px] left-0 top-0 absolute bg-white" />
-              <div className="w-[200px] h-[262px] left-[11px] top-[458px] absolute text-black text-4xl font-normal font-['Lora']">MCAT©<br />GMAT©<br />TOEFL©<br />OET©</div>
-              <div className="w-[197px] h-[262px] left-[200px] top-[458px] absolute text-black text-4xl font-normal font-['Lora']">USMLE Step 1©<br />USMLE Step 2 CK©</div>
-              <img className="w-[347px] h-[342px] left-[26px] top-[102px] absolute" src="https://via.placeholder.com/347x342" />
-            </div>
-            <div className="w-[400px] h-[720px] left-[444px] top-[121px] absolute">
-              <div className="w-[400px] h-[720px] left-0 top-0 absolute bg-white" />
-              <div className="w-[188px] h-[265px] left-[12px] top-[442px] absolute text-black text-xl font-normal font-['Lora']">Pre-algebra<br />Algebra<br />Differential & Integral Calculus<br />Analytical & Physical Chemistry<br />Organic Chemistry<br />Physics</div>
-              <div className="w-[174px] h-[266px] left-[218px] top-[442px] absolute text-black text-xl font-normal font-['Lora']">Biochemistry<br />Anatomy<br />Physiology<br />Pathology<br />Pharmacology<br />Nutrition<br />Statistics<br />Critical Reasoning</div>
-              <img className="w-[347px] h-[342px] left-[26px] top-[102px] absolute" src="https://via.placeholder.com/347x342" />
-            </div>
-            <div className="w-[400px] h-[720px] left-[29px] top-[121px] absolute">
-              <div className="w-[400px] h-[720px] left-0 top-0 absolute bg-white" />
-              <img className="w-[347px] h-[342px] left-[27px] top-[102px] absolute" src="https://via.placeholder.com/347x342" />
-              <div className="w-[359px] h-[262px] left-[21px] top-[447px] absolute text-center text-black text-4xl font-normal font-['Lora']">Curriculum Vitae (CV) Drafting, Resume Drafting, Personal Statement Editing, Career Path Advisement</div>
-            </div>
-          </div>
+          <div><p>what we do</p></div>
+          <div>card 1</div>
+          <div>card 2</div>
+          <div>card 3</div>
         </section>
         <div className="w-[1280px] h-[900px] relative bg-stone-500 bg-opacity-30">
           <div className="w-[1280px] h-[900px] left-0 top-0 absolute bg-stone-300" />
@@ -71,40 +54,12 @@ export default function Home() {
           <button className="w-[354px] h-[90px] left-[466px] top-[616px] absolute text-center text-white text-8xl font-normal font-['Lancelot']">schedule</button>
         </div>
         <section>
-          <div className="w-[1280px] h-[900px] bg-white relative flex justify-center items-center">
-            <form action="" className="w-full max-w-lg">
-              <div className='flex flex-col md:flex-row py-2 gap-2 md:items-center'>
-                <label htmlFor="name" className="md:w-1/3">Name</label>
-                <input type="text" id="name" className="flex-1 p-2 border border-gray-300 rounded" />
-              </div>
-
-              <div className='flex flex-col md:flex-row py-2 gap-2 md:items-center'>
-                <label htmlFor="email" className="md:w-1/3">Email</label>
-                <input type="email" id="email" className="flex-1 p-2 border border-gray-300 rounded" />
-              </div>
-
-              <div className='flex flex-col md:flex-row py-2 gap-2 md:items-center'>
-                <label htmlFor="message" className="md:w-1/3">Message</label>
-                <textarea id="message" className="flex-1 p-2 border border-gray-300 rounded" rows={4}></textarea>
-              </div>
-
-              <button type="submit" className="px-6 py-3 bg-orange-500 text-white text-lg rounded hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50">
-                Send
-              </button>
-            </form>
-          </div>
+          <div>email us form</div>
         </section>
-
       </main>
-      <footer className="bg-[#A8BFA5]">
-        <div className='flex justify-center w-full'>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-          <a>link</a>
-        </div>
-        <div className="flex justify-center w-full ">
+      <footer className="">
+
+        <div className="flex flex-row">
           <a href="">Home</a>
           <a href="">News</a>
           <a href="">About Us</a>
