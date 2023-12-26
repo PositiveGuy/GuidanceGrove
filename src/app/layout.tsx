@@ -16,11 +16,11 @@ const inter = Inter({ subsets: ['latin'] });
 //header and footer layout
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
+    <html lang='en'>
       <Header />
       <main className={inter.className}>{children}</main>
       <Footer />
-    </>
+    </html>
   );
 };
 
