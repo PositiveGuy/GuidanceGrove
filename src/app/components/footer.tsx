@@ -12,7 +12,7 @@ const Footer = () => {
           <Image src={"/SVGs/yt.svg"} width={50} height={50} alt="in"></Image>
         </div>
 
-        <div className="flex justify-center space-x-1 mb-10">
+        <div className="flex justify-center space-x-1 mb-10 text-teal-50">
           <div className="mt-20">
             ©2023; designed with love and care by
           </div>

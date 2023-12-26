@@ -6,7 +6,6 @@ import TestimonialsSection from './components/TestimonialsSection';
 import CallToActionSection from './components/CallToActionSection';
 import ContactSection from './components/ContactSection';
 
-
 //page layout
 const Page = () => {
   return (
