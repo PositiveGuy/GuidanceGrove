@@ -1,6 +1,10 @@
 import React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+
+//components import
+import Header from './components/header';
+import Footer from './components/footer';
+
+//styles import
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeContextProvider } from '@/context/ThemeContext';
@@ -15,15 +19,13 @@ const inter = Inter({ subsets: ['latin'] });
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang='en'>
-      <body>
-        <ThemeContextProvider>
-          <ThemeProvider>
-            <Header />
-            <main className={inter.className}>{children}</main>
-            <Footer />
-          </ThemeProvider>
-        </ThemeContextProvider>
-      </body>
+      <ThemeContextProvider>
+        <ThemeProvider>
+          <Header />
+
+          <Footer />
+        </ThemeProvider>
+      </ThemeContextProvider>
     </html>
   );
 };

@@ -5,7 +5,8 @@ import ServicesSection from '../components/ServicesSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import CallToActionSection from '../components/CallToActionSection';
 import ContactSection from '../components/ContactSection';
-
+import ThemeProvider from '@/providers/ThemeProvider';
+import { ThemeContextProvider } from '@/context/ThemeContext';
 
 //page layout
 const Page = () => {
@@ -17,6 +18,7 @@ const Page = () => {
       <TestimonialsSection />
       <CallToActionSection />
       <ContactSection />
+
     </>
   );
 };
