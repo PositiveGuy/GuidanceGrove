@@ -1,7 +1,9 @@
 "use client"
 import { useContext, useEffect, useRef, useState } from "react";
+
 import ThemeToggle from "./ThemeToggle";
 import SearchBar from "./SearchBar";
+
 import { ThemeContext } from "@/context/ThemeContext";
 import Link from "next/link";
 
